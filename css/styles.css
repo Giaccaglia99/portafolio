@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#222;
+    color:white;
+    padding:15px;
+}
+
+.button{
+    border: none;
+    margin: 30px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 40px;
+    width: 20vh;
+    background-color: white;
+    transition:.3s;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover {
+    color: #686868;
+}
+
+.hero{
+    text-align:center;
+    padding:80px;
+    background:#0077ff;
+    color:white;
+}
+
+section{
+    padding:60px;
+}
+
+.proyecto{
+    background:white;
+    padding:20px;
+    margin:10px 0;
+    border-radius:10px;
+}
+
+.button-proyectos{
+    border: none;
+    margin: 30px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 40px;
+    width: 20vh;
+    background: black;
+    color: white;
+    transition:.3s;
+}
+
+.button-proyectos:hover {
+    background-color: rgb(57, 56, 56);    
+}
+
+.enlace{
+    
+    color: blue;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#222;
+    color:white;
+}
