@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Mi Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Oldenburg&family=Orbitron&family=Raleway:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
 
-<header>
+<body>
+<header class="header">
     <nav>
-        <h1>Lucas Ezequiel Giaccaglia</h1>
         <ul>
-            <li><a href="#sobre">Sobre mí</a></li>
+            <li><a href="#sobremi">Sobre mí</a></li>
             <li><a href="#skills">Habilidades</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#contacto">Contacto</a></li>
@@ -20,17 +23,24 @@
 </header>
 
 <section class="hero">
-    <h2>Hola, soy desarrollador web</h2>
+    <div class="circulo">
+        <img src="/img/foto-perfil.jpg" alt="Perfil">
+    </div>
+    <h1 class="name">Lucas Ezequiel Giaccaglia</h1>
+    <h2 class="title1">Hola, soy desarrollador web</h2>
     <p>Creo sitios web con HTML, CSS y JavaScript.</p>
-    <a href="#proyectos">
-        <button class="button">Ver proyectos</button>
-    </a>
-    <a href="/docs/Lucas Giaccaglia Front-end (en).pdf">
-        <button class="button">CV</button>
-    </a>
+    <div>
+        <a href="#proyectos">
+            <button class="button">Ver proyectos</button>
+        </a>
+        <a href="/docs/Lucas Giaccaglia Front-end (en).pdf">
+            <button class="button">CV</button>
+        </a>
+        
+    </div>
 </section>
 
-<section id="sobre">
+<section class="sobremi" id="sobremi">
     <h2>Sobre mí</h2>
     <p>Soy desarrollador de software apasionado por crear sitios web modernos y eficientes. Me gusta aprender nuevas tecnologías y construir soluciones que resuelvan problemas reales.
         Trabajo principalmente con JavaScript, React y Node.js. Disfruto desarrollar proyectos web completos, desde el diseño de la interfaz hasta la lógica del backend, enfocándome en código limpio, rendimiento y buena experiencia de usuario.
@@ -65,7 +75,6 @@
         <button class="button-proyectos">LoliFIT</button>
     </a>
     </div>
-
 </section>
 
 <section id="contacto">
